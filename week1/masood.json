@@ -1,0 +1,44 @@
+{
+  2015 : [
+    {
+      "date" : "April 1",
+      "value" : 149.52
+    },
+    {
+      "date" : "April 2",
+      "value" : 149.38
+    },
+    {
+      "date" : "April 3",
+      "value" : 149.60
+    },
+    {
+      "date" : "April 4",
+      "weight" : 149.10
+    },
+    {
+      "date" : "April 5",
+      "weight" : 151.77
+    },
+    {
+      "date" : "April 6",
+      "weight" : 150.84
+    },
+    {
+      "date" : "April 7",
+      "weight" : 149.93
+    },
+    {
+      "date" : "April 8",
+      "weight" : 149.63
+    },
+    {
+      "date" : "April 9",
+      "weight" : 149.95
+    },
+    {
+      "date" : "April 10",
+      "weight" : 147.79
+    }
+  ]
+}
