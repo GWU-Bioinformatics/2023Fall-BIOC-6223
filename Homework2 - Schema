@@ -1,4 +1,4 @@
 { “$schema”: http://json-schema.org/draft-07/schema#,
-“$id”: “<direct-link-to-your-schema>”,
+“$id”: "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/crwoodside/Homework2%20-%20Schema",
 <the rest of your schema goes here>
 }
