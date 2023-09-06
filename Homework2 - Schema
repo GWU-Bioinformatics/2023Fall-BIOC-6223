@@ -1,0 +1,4 @@
+{ “$schema”: http://json-schema.org/draft-07/schema#,
+“$id”: “<direct-link-to-your-schema>”,
+<the rest of your schema goes here>
+}
