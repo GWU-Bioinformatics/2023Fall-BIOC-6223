@@ -1,5 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/bd37c53ed1b0f5c1a7f1aff96ae70970bb97ba02/assignment2_mckean_schema.json",
     "title": "Gene(s) of interest",
     "description": "This document provides information about gene(s) of interest in a particular study",
     "type": "object",
