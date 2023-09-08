@@ -1,13 +1,13 @@
 {
-"April 1, 2015": 149.52,
-"April 2, 2015": 149.38,
-"April 3, 2015": 149.60,
-"April 4, 2015": 149.10,
-"April 5, 2015": 151.77,
-"April 6, 2015": 150.84,
-"April 7, 2015": 149.93,
-"April 8, 2015": 149.63,
-"April 9, 2015": 149.95,
-"April 10, 2015": 147.79
+  "Data" : [{
+    "Gene Id" : 3169
+  },{
+    "Gene Name" : "Forkhead Box A1"
+  },{
+    "#Transcript" : 1
+  },{
+    "Gene Classification" : ["Transcription Factor","Protein Hepatocyte nuclear factor 3- Alpha"]
+  },{
+    "Number of Exons" : 2
+  }]
 }
-
