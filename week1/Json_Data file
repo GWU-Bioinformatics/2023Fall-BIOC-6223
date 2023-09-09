@@ -1,0 +1,15 @@
+{
+    “data”:[{
+    “gene id “:3169
+    },{
+    “gene name”:“fork-head box A1”
+   },{
+    “#transcript”: 1
+  },{
+    “gene classification”:[ “transcription factor” ,”protein hepatocyte nuclear factor 3- alpha”]
+},{
+    “number of exons”:2
+} ]
+}
+
+
