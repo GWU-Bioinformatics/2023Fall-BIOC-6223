@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/ballesteros.json/HSPA5.json",
+  "description": "Records of the selected gene",
+  "type": "object",
+  "properties": {
+      "HSPA5": {
+        "description": "Symbol of the gene selected",
+        "type": "object",
+        "properties": {
+          "Gene ID": {
+             "description": "Unique identifier for the gene",
+             "type": "number"
+          },
+          "Gene Name": {
+             "description": "Full name of the gene",
+             "type": "string"
+          },
+          "Number of transcripts": {
+             "description": "Number of transcript variants for the gene",
+             "type": "number"
+          },
+          "Gene classification": {
+             "description": "Type of gene",
+             "type": "string"
+          },
+          "Number of exons": {
+             "description": "Exons reported fo the gene",
+             "type": "number"
+          }
+        },
+        "required": [
+            "Gene ID",
+            "Gene Name",
+            "Number of Transcripts",
+            "Gene Classification",
+            "Number of Exons"
+        ]
+      }
+  },
+  "additionalProperties": false
+}
