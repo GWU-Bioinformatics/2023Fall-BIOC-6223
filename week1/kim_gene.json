@@ -1,0 +1,9 @@
+{
+    "gene": {
+        "gene_id": 7157,
+        "gene_name": "tumor protein p53",
+        "num_transcripts": 26,
+        "gene_classification": "protein coding/tumor suppressor gene",
+        "num_exons": 13
+    }
+}
