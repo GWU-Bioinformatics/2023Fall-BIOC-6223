@@ -1,13 +1,16 @@
 {
-  "Data" : [{
-    "Gene Id" : 3169
-  },{
-    "Gene Name" : "Forkhead Box A1"
-  },{
-    "#Transcript" : 1
-  },{
-    "Gene Classification" : ["Transcription Factor","Protein Hepatocyte nuclear factor 3- Alpha"]
-  },{
-    "Number of Exons" : 2
-  }]
+"data" : [{
+"weight" : 150.06,
+"date" : "April 1, 2015"
+},{
+"weight" : 150.24,
+"date" : "April 2, 2015"
+},{
+"weight" : 148.99,
+"date" : "April 3, 2015"
+},{
+"weight" : 149.40,
+"date" : "April 4, 2015"
+}]
 }
+
