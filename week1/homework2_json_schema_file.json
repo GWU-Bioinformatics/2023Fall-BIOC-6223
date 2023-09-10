@@ -2,8 +2,10 @@
   "$schema": "http//json-schema.org/draft-07/schema#",
   "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/auyeung/week1/homework2_json_schema_file.json",
   "type": "object",
-  "required": "gene",
-  "properties": {
+  "required": [
+    "gene"
+    ],
+  "properties":{
     "gene": {
       "type": "object",
       "properties": {
