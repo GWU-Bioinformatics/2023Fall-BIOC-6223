@@ -1,0 +1,404 @@
+{
+    "data": [
+        {
+            "date": "April 01, 2015",
+            "weight": "150.54"
+        },
+        {
+            "date": "April 02, 2015",
+            "weight": "150.43"
+        },
+        {
+            "date": "April 03, 2015",
+            "weight": "149.28"
+        },
+        {
+            "date": "April 04, 2015",
+            "weight": "150.18"
+        },
+        {
+            "date": "April 05, 2015",
+            "weight": "150.94"
+        },
+        {
+            "date": "April 06, 2015",
+            "weight": "150.10"
+        },
+        {
+            "date": "April 07, 2015",
+            "weight": "152.42"
+        },
+        {
+            "date": "April 08, 2015",
+            "weight": "149.69"
+        },
+        {
+            "date": "April 09, 2015",
+            "weight": "148.84"
+        },
+        {
+            "date": "April 10, 2015",
+            "weight": "150.93"
+        },
+        {
+            "date": "April 11, 2015",
+            "weight": "150.48"
+        },
+        {
+            "date": "April 12, 2015",
+            "weight": "149.94"
+        },
+        {
+            "date": "April 13, 2015",
+            "weight": "152.10"
+        },
+        {
+            "date": "April 14, 2015",
+            "weight": "148.93"
+        },
+        {
+            "date": "April 15, 2015",
+            "weight": "149.42"
+        },
+        {
+            "date": "April 16, 2015",
+            "weight": "150.41"
+        },
+        {
+            "date": "April 17, 2015",
+            "weight": "149.58"
+        },
+        {
+            "date": "April 18, 2015",
+            "weight": "149.98"
+        },
+        {
+            "date": "April 19, 2015",
+            "weight": "150.90"
+        },
+        {
+            "date": "April 20, 2015",
+            "weight": "150.84"
+        },
+        {
+            "date": "April 21, 2015",
+            "weight": "148.73"
+        },
+        {
+            "date": "April 22, 2015",
+            "weight": "151.69"
+        },
+        {
+            "date": "April 23, 2015",
+            "weight": "149.02"
+        },
+        {
+            "date": "April 24, 2015",
+            "weight": "151.50"
+        },
+        {
+            "date": "April 25, 2015",
+            "weight": "149.19"
+        },
+        {
+            "date": "April 26, 2015",
+            "weight": "150.43"
+        },
+        {
+            "date": "April 27, 2015",
+            "weight": "150.38"
+        },
+        {
+            "date": "April 28, 2015",
+            "weight": "150.20"
+        },
+        {
+            "date": "April 29, 2015",
+            "weight": "149.97"
+        },
+        {
+            "date": "April 30, 2015",
+            "weight": "150.56"
+        },
+        {
+            "date": "May 01, 2015",
+            "weight": "150.23"
+        },
+        {
+            "date": "May 02, 2015",
+            "weight": "150.16"
+        },
+        {
+            "date": "May 03, 2015",
+            "weight": "150.29"
+        },
+        {
+            "date": "May 04, 2015",
+            "weight": "149.57"
+        },
+        {
+            "date": "May 05, 2015",
+            "weight": "150.25"
+        },
+        {
+            "date": "May 06, 2015",
+            "weight": "148.86"
+        },
+        {
+            "date": "May 07, 2015",
+            "weight": "150.63"
+        },
+        {
+            "date": "May 08, 2015",
+            "weight": "151.30"
+        },
+        {
+            "date": "May 09, 2015",
+            "weight": "149.98"
+        },
+        {
+            "date": "May 10, 2015",
+            "weight": "150.42"
+        },
+        {
+            "date": "May 11, 2015",
+            "weight": "149.58"
+        },
+        {
+            "date": "May 12, 2015",
+            "weight": "150.91"
+        },
+        {
+            "date": "May 13, 2015",
+            "weight": "148.83"
+        },
+        {
+            "date": "May 14, 2015",
+            "weight": "149.80"
+        },
+        {
+            "date": "May 15, 2015",
+            "weight": "151.27"
+        },
+        {
+            "date": "May 16, 2015",
+            "weight": "148.65"
+        },
+        {
+            "date": "May 17, 2015",
+            "weight": "150.60"
+        },
+        {
+            "date": "May 18, 2015",
+            "weight": "150.01"
+        },
+        {
+            "date": "May 19, 2015",
+            "weight": "150.26"
+        },
+        {
+            "date": "May 20, 2015",
+            "weight": "150.21"
+        },
+        {
+            "date": "May 21, 2015",
+            "weight": "147.75"
+        },
+        {
+            "date": "May 22, 2015",
+            "weight": "148.46"
+        },
+        {
+            "date": "May 23, 2015",
+            "weight": "148.54"
+        },
+        {
+            "date": "May 24, 2015",
+            "weight": "148.77"
+        },
+        {
+            "date": "May 25, 2015",
+            "weight": "150.44"
+        },
+        {
+            "date": "May 26, 2015",
+            "weight": "147.97"
+        },
+        {
+            "date": "May 27, 2015",
+            "weight": "150.32"
+        },
+        {
+            "date": "May 28, 2015",
+            "weight": "149.48"
+        },
+        {
+            "date": "May 29, 2015",
+            "weight": "150.27"
+        },
+        {
+            "date": "May 30, 2015",
+            "weight": "149.93"
+        },
+        {
+            "date": "May 31, 2015",
+            "weight": "149.12"
+        },
+        {
+            "date": "June 01, 2015",
+            "weight": "148.67"
+        },
+        {
+            "date": "June 02, 2015",
+            "weight": "150.21"
+        },
+        {
+            "date": "June 03, 2015",
+            "weight": "151.97"
+        },
+        {
+            "date": "June 04, 2015",
+            "weight": "149.07"
+        },
+        {
+            "date": "June 05, 2015",
+            "weight": "151.43"
+        },
+        {
+            "date": "June 06, 2015",
+            "weight": "149.27"
+        },
+        {
+            "date": "June 07, 2015",
+            "weight": "151.35"
+        },
+        {
+            "date": "June 08, 2015",
+            "weight": "149.67"
+        },
+        {
+            "date": "June 09, 2015",
+            "weight": "148.76"
+        },
+        {
+            "date": "June 10, 2015",
+            "weight": "148.61"
+        },
+        {
+            "date": "June 11, 2015",
+            "weight": "151.11"
+        },
+        {
+            "date": "June 12, 2015",
+            "weight": "150.04"
+        },
+        {
+            "date": "June 13, 2015",
+            "weight": "152.03"
+        },
+        {
+            "date": "June 14, 2015",
+            "weight": "150.61"
+        },
+        {
+            "date": "June 15, 2015",
+            "weight": "150.17"
+        },
+        {
+            "date": "June 16, 2015",
+            "weight": "150.87"
+        },
+        {
+            "date": "June 17, 2015",
+            "weight": "150.45"
+        },
+        {
+            "date": "June 18, 2015",
+            "weight": "149.99"
+        },
+        {
+            "date": "June 19, 2015",
+            "weight": "149.74"
+        },
+        {
+            "date": "June 20, 2015",
+            "weight": "149.42"
+        },
+        {
+            "date": "June 21, 2015",
+            "weight": "150.61"
+        },
+        {
+            "date": "June 22, 2015",
+            "weight": "147.07"
+        },
+        {
+            "date": "June 23, 2015",
+            "weight": "151.24"
+        },
+        {
+            "date": "June 24, 2015",
+            "weight": "150.13"
+        },
+        {
+            "date": "June 25, 2015",
+            "weight": "149.95"
+        },
+        {
+            "date": "June 26, 2015",
+            "weight": "149.04"
+        },
+        {
+            "date": "June 27, 2015",
+            "weight": "150.61"
+        },
+        {
+            "date": "June 28, 2015",
+            "weight": "150.38"
+        },
+        {
+            "date": "June 29, 2015",
+            "weight": "149.76"
+        },
+        {
+            "date": "June 30, 2015",
+            "weight": "148.33"
+        },
+        {
+            "date": "July 01, 2015",
+            "weight": "149.73"
+        },
+        {
+            "date": "July 02, 2015",
+            "weight": "151.14"
+        },
+        {
+            "date": "July 03, 2015",
+            "weight": "148.35"
+        },
+        {
+            "date": "July 04, 2015",
+            "weight": "149.95"
+        },
+        {
+            "date": "July 05, 2015",
+            "weight": "148.60"
+        },
+        {
+            "date": "July 06, 2015",
+            "weight": "150.92"
+        },
+        {
+            "date": "July 07, 2015",
+            "weight": "149.68"
+        },
+        {
+            "date": "July 08, 2015",
+            "weight": "149.49"
+        },
+        {
+            "date": "July 09, 2015",
+            "weight": "150.14"
+        }
+    ]
+}
