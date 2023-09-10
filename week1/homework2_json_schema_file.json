@@ -6,10 +6,24 @@
   "properties": {
     "gene": {
       "type": "object",
-      "description": "Human gene of interest.",
-      "required": [
-        "gene_id",
-        "transcripts"
-      ],
-  
-  
+      "properties": {
+        "gene_id": {
+          "type": "integer"
+        },
+        "gene_name": {
+          "type": "string"
+        },
+        "transcripts": {
+          "type": "integer"
+        },
+        "gene_classification": {
+          "type": "string"
+        },
+        "number_of_exons": {
+          "type": "integer"
+        }
+      },
+      "required": ["gene_id", "gene_name"]
+    }
+  }
+}
