@@ -14,7 +14,6 @@ date = datetime.date(2015, 4, 1)
 date_delta = datetime.timedelta(days = 1)
 
 data = []
-# print(date.strftime('%B %d, %Y'))
 
 for i in s:
     data.append({'date': date.strftime('%B %d, %Y'), 'weight': i})
