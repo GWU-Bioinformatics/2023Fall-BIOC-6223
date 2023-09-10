@@ -1,20 +1,19 @@
-{ “$schema”: "http://json-schema.org/draft-07/schema#",
- 
-“$id”: "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/crwoodside/Homework2%20-%20Schema",
-  
+{ "$schema": "http://json-schema.org/draft-07/schema#",
+ "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/crwoodside/Homework2%20-%20Schema",
+   
 "type" : "object",
   "required" : [
     "Gene ID",
       "Gene Name",
       "Number Transcripts",
       "Gene Classification",
-      "Number of exons"
+      "Number of Exons"
   ],
     
     "properties" : {
       "Gene ID" : {
     	"type" : "integer",
-    	"examples" : ["7157"]
+    	"examples" : [7157]
       },
        "Gene Name" : {
     	"type" : "string",
@@ -22,7 +21,7 @@
       },
         "Number Transcripts" : {
     	"type" : "integer",
-    	"examples" : ["34"]
+    	"examples" : [34]
       },
         "Gene Classification" : {
     	"type" : "string",
@@ -30,7 +29,7 @@
       },
         "Number of Exons" : {
     	"type" : "integer",
-    	"examples" : ["13"]
+    	"examples" : [13]
       }}
     	
   
