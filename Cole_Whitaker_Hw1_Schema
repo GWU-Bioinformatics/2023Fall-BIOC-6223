@@ -6,4 +6,57 @@
   "Gene"
 ],
 "properties" : {
-  
+      "Gene" : {
+        "Type" : "Object",
+          "Description" : "Container for all Gene information." , 
+          "Required" : [
+            "Gene ID",
+            "Gene Name",
+            "# of Transcripts",
+            "Gene Classification",
+            "# of exons"
+],
+            "Items" : {
+            "additional properties" : false,
+            "Properties" : {
+            "Gene ID" : {
+                  "type" : "number",
+                  "description" : "Assigned Gene ID number.",
+                  "example" : [
+                      37484,
+                              ]
+                        }
+            "Gene Name" : {
+                "type" : "string",
+                  "description" : "Assigned Gene name.",
+                  "example" : [
+                      BCL2-associated X protein,
+                              ]
+                          }
+            "# of Transcripts" : {
+                  "type" : "number",
+                  "description" : "Number of transcripts associated with the gene.",
+                  "example" : [
+                      4,
+                              ]
+                                  }
+            "Gene Classification" : {
+                    "type" : "string",
+                  "description" : "classification of gene.",
+                  "example" : [
+                      protein expression gene,
+                              ]
+                                    }
+              "# of Exons" : {
+                  "type" : "number",
+                  "description" : "Number of exons in the gene.",
+                  "example" : [
+                      4,
+
+                              ]
+                              }
+            }
+          }
+        }
+      }
+    }
