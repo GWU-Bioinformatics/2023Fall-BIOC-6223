@@ -1,0 +1,32 @@
+{
+  "$schema": "http//json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/auyeung/week1/homework2_json_schema_file.json",
+  "type": "object",
+  "required": [
+    "STK11"
+    ],
+  "properties":{
+    "STK11": {
+      "type": "object",
+      "required": ["gene_id", "gene_name"],
+      "description": "gene_id and gene_name are the minimal requirement for data to be stored meaningfully.",
+      "properties": {
+        "gene_id": {
+          "type": "integer"
+        },
+        "gene_name": {
+          "type": "string"
+        },
+        "number_of_transcripts": {
+          "type": "integer"
+        },
+        "gene_classification": {
+          "type": "string"
+        },
+        "number_of_exons": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
