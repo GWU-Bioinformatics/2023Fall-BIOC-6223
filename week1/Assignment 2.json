@@ -1,9 +1,3 @@
-#Gene ID: BRCA1
-#Gene Name: Breast Cancer Gene 1
-#Transcripts: 40
-#Gene Classification: Protein Coding Tumor Supressor Gene
-#Exons: 24 
-
 {
   "BRCA1":
     {
