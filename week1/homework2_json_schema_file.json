@@ -8,6 +8,8 @@
   "properties":{
     "gene": {
       "type": "object",
+      "required": ["gene_id", "gene_name"],
+      "description": "gene_id and gene_name are the minimal requirement for data to be stored meaningfully.",
       "properties": {
         "gene_id": {
           "type": "integer"
@@ -24,8 +26,7 @@
         "number_of_exons": {
           "type": "integer"
         }
-      },
-      "required": ["gene_id", "gene_name"]
+      }
     }
   }
 }
