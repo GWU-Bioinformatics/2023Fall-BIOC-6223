@@ -1,6 +1,6 @@
 {
     "$schema": "http//json-schema.org/draft-07/schema#",
-    "$id": "[placeholder]",
+    "$id": "https://github.com/GWU-Bioinformatics/2023Fall-BIOC-6223/blob/skim658/week1/kim_gene_schema.json",
     "properties": {
         "gene": {
             "type": "object",
