@@ -1,2 +1,54 @@
 {"$schema": "http//json-schema.org/draft-07/schema#",
  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/Johnson/week1/Assignment%202%20Schema.json",
+"type": "object",
+"required": [
+"BRCA1"
+],
+    "properties": {
+    "BRCA1": {
+    "type": "object",
+    "required": [
+
+        "ID",
+        "Name",
+        "Transcripts",
+        "Gene Classification",
+        "Exons"
+],
+
+"properties": {
+     "ID": {
+     "type":"integer",
+     "examples":[672]
+     },
+
+     "Name": {
+     "type":"string",
+     "examples":["Breast Cancer Gene 1"]
+     },
+
+     "Transcripts":{
+     "type":"integer",
+     "examples":[40]
+     },
+
+     "Gene Classification":{
+     "type":"string",
+     "examples":["Protein Coding Tumor Surpressor Gene"]
+     },
+
+     "Exons":{
+     "type":"integer",
+     "examples":[24]
+     }}
+}}
+}
+      
+
+
+
+
+
+
+
+
