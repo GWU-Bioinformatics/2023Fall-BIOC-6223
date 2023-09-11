@@ -1,0 +1,10 @@
+{
+  "BRCA1":
+    {
+      "ID":672,
+      "Name":"Breast Cancer Gene 1",
+      "Transcripts":40,
+      "Gene Classification":"Protein Coding Tumor Surpressor Gene",
+      "Exons":24
+    }
+}
