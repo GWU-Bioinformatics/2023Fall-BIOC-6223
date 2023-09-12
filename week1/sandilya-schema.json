@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "$id": "http://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/Sandilya_json/week1/Json_Data%20file",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/Sandilya_json/week1/Json_Data%20file",
   "type": "object",
   "properties": {
     "data": {
