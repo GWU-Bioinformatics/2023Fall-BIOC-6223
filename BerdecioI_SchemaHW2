@@ -1,0 +1,36 @@
+{
+“$schema”: http://json-schema.org/draft-07/schema#,
+“$id”: “<direct-link-to-your-schema>”,
+"type" : "object",
+  "required" : [
+      "Gene_ID",
+      "Gene_Name",
+      "Transcripts",
+      "Gene_Type",
+      "Exons"
+  ],
+    
+    "properties" : {
+      "Gene_ID" : {
+    	"type" : "numeric",
+    	"examples" : 4292
+      },
+      "Gene_Name" : {
+    	"type" : "string",
+      "examples" : "multL homolg 1 "
+      },
+      "Transcripts" : {
+    	"type" : "numeric",
+      "examples" : 38
+      },
+      "Gene_Type" : {
+    	"type" : "string",
+    	"examples" : "protein coding"
+      },
+      "Number of Exons" : {
+    	"type" : "numeric",
+    	"examples" : 24
+    	
+  
+}
+}
