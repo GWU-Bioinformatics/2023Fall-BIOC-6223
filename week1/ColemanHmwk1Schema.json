@@ -16,7 +16,8 @@
       "Gene Name",
       "Gene Classification",
       "Properties"
-    ],
+    ]
+  },
     "items": {
       "additionalProperties": false,
       "properties": {
@@ -65,5 +66,10 @@
             "Number of Transcripts"
           ]
         }
+      }
+    }
+}
+}
+
           
     
