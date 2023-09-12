@@ -1,7 +1,7 @@
 {
-“$schema”: "http://json-schema.org/draft-07/schema#",
-“$id”: “https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/ColeWhitaker_Test/Cole_Whitaker_Hw1.Json”,
-"Title" : "Gene Information",
+"$schema":"http://json-schema.org/draft-07/schema#",
+"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/ColeWhitaker_test/Cole_Whitaker_Hw1.Json" ,
+"title" : "Gene Information",
 "description" : "Basic information about a certain gene",
 "type" : "object",
 "properties" : {
