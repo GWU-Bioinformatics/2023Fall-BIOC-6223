@@ -38,7 +38,7 @@
         "Properties": {
           "type": "object",
           "description": "Gene characteristics."
-           properties: {
+           "properties": {
             "Number of Exons": {
               "type": "array",
               "items": {
