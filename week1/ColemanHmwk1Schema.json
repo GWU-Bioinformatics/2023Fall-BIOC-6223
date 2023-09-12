@@ -1,0 +1,72 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/KColeman/week1/ColemanHmwk1Schema.json",
+"title": "BCL-2 Gene Data",
+"description": "NCBI data of BCL-2 gene",
+"type": "object",
+"required": [
+  "Gene Data"
+],
+"properties":{
+  "Gene Data": {
+    "type": "object",
+    "description": "Container of BCL-2 data.",
+    "required": [
+      "Gene ID",
+      "Gene Name",
+      "Gene Classification",
+      "Properties"
+    ]
+  },
+    "items": {
+      "additionalProperties": false,
+      "properties": {
+        "Gene ID": {
+          "type": "number",
+          "description": "Unique identifer for a gene.",
+          "example": 596
+        },
+        "Gene Name": {
+          "type": "string",
+          "description": "Full name of gene.",
+          "example": "B-Cell Lymphoma-2 apoptosis regulator"
+        },
+        "Gene Classification": {
+          "type": "string",
+          "description": "Gene type.",
+          "example": "Protein Coding"
+        },
+        "Properties": {
+          "type": "object",
+          "description": "Gene characteristics.",
+           "properties": {
+            "Number of Exons": {
+              "type": "array",
+              "items": {
+                "description": "Number of exons on BCL-2 gene.",
+                "type": "number",
+                "example": 4
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "Number of Transcripts": {
+              "type": "array",
+              "items": {
+                "description": "Number of different transcripts BCL-2 encodes for.",
+                "type": "number",
+                "example": 9
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "Number of Exons",
+            "Number of Transcripts"
+          ]
+        }
+      }
+    }
+}
+}
