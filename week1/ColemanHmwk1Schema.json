@@ -15,7 +15,7 @@
       "Gene ID",
       "Gene Name",
       "Gene Classification",
-      "Gene Properties"
+      "Properties"
     ],
     "items": {
       "additionalProperties": false,
@@ -35,10 +35,10 @@
           "description": "Gene type.",
           "example": "Protein Coding"
         },
-        "Gene Properties": {
+        "Properties": {
           "type": "object",
           "description": "Gene characteristics."
-          "properties": {
+           properties: {
             "Number of Exons": {
               "type": "array",
               "items": {
