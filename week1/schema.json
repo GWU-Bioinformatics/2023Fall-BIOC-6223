@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+"$id":"https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/Chopra/week1/Datafile.json",
+  
+  
+"type":"object",
+  "requred" :[
+    "Gene id",
+    	"gene name",
+    	"transcripts",
+    		"gene classification",
+    			"number of exons"
+    ],
+    
+    "properties" :{
+      "Gene id" :{
+        "type":"integer",
+        "example":[596]
+        
+      },
+        "gene name":{
+          "type": "string",
+            "example" :["BCL2 apoptosis regulator"]
+        },
+          
+         "transcript" :{
+          "type" :"integer",
+          "example" :[9]
+         },
+           "gene classification" :{
+            "type":"string",
+              "example":["protein coding"]
+           },
+           
+           "number of exons" :{
+            "type" : "integer",
+             "example" : [4]
+           }}
+  
+}
+        
