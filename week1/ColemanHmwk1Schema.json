@@ -1,6 +1,6 @@
 {
-"$schema": http://json-schema.org/draft-07/schema#,
-"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/KColeman/week1/ColemanHmwk1Schema.json”,
+"$schema": "http://json-schema.org/draft-07/schema#",
+"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/KColeman/week1/ColemanHmwk1Schema.json",
 "title": "BCL-2 Gene Data",
 "description": "NCBI data of BCL-2 gene",
 "type": "object",
