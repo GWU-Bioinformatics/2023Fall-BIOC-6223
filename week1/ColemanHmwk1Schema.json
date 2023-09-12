@@ -17,4 +17,53 @@
       "Gene Classification",
       "Properties"
     ],
+    "items": {
+      "additionalProperties": false,
+      "properties": {
+        "Gene ID": {
+          "type": "number",
+          "description": "Unique identifer for a gene.",
+          "example": 596
+        },
+        "Gene Name": {
+          "type": "string",
+          "description": "Full name of gene.",
+          "example": "B-Cell Lymphoma-2 apoptosis regulator"
+        },
+        "Gene Classification": {
+          "type": "string",
+          "description": "Gene type.",
+          "example": "Protein Coding"
+        },
+        "Properties": {
+          "type": "object",
+          "description": "Gene characteristics."
+          "properties": {
+            "Number of Exons": {
+              "type": "array",
+              "items": {
+                "description": "Number of exons on BCL-2 gene.",
+                "type": "number",
+                "example": 4
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "Number of Transcripts": {
+              "type": "array",
+              "items": {
+                "description": "Number of different transcripts BCL-2 encodes for.",
+                "type": "number",
+                "example": 9
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "Number of Exons",
+            "Number of Transcripts"
+          ]
+        }
+          
     
