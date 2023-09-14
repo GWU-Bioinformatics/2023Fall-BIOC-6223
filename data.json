@@ -1,0 +1,13 @@
+{  
+    "gene_data" : [
+      {
+        "id" : "672",
+        "name" : "BRCA1 DNA pair",
+        "number_of_transcripts" : "368",
+        "gene_classification" : "tumor suppression gene",
+        "number_of_exons" : "24"
+      }
+    ]
+}
+        
+      
