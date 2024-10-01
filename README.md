@@ -1,3 +1,3 @@
 # 2023Fall-BIOC-6223
 
-Placeholder.
+Class repository for BIOC/GENO 6223, Fall 2023
