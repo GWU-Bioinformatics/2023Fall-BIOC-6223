@@ -1,0 +1,47 @@
+{
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/new/cnu",
+    "type" : "object",
+    "required" : [
+      "gene_id", 
+      "gene_name", 
+      "number_of_transcripts", 
+      "gene_classification", 
+      "number_of_exons"
+    ],
+  "properties" : {
+    "gene_id" : {
+      "type" : "integer",
+      "examples" : [
+        672
+      ]
+    },
+    "gene_name" : {
+      "type" : "string",
+      "examples" : [
+        "BRCA1 DNA pair"
+      ]
+    },
+    "number_of_transcripts" : {
+      "type" : "integer",
+      "examples" : [
+        368
+      ]
+    },
+    "gene_classification" : {
+      "type" : "string",
+      "examples" : [
+        "tumor suppression gene"
+      ]
+    },
+    "number_of_exons" : {
+      "type" : "integer",
+      "examples" : [
+        24
+      ]
+    }
+  }
+}
+   
+    
+  
