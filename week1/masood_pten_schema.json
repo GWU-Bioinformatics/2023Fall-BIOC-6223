@@ -1,0 +1,28 @@
+{
+    "$schema" : "http//json-schema.org/draft-07/schema#",
+    "$id" : "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/daniall-test/week1/masood_pten_schema.json",
+    "type" : "object",
+    "properties" : {
+        "gene" : {
+            "type" : "string",
+            "description" : "Gene Abbreviation/Identifier"
+        },
+        "gene_name" : {
+            "type" : "string",
+            "description" : "Gene Name"
+        },
+        "transcripts" : {
+            "type" : "integer",
+            "description" : "Number of transcripts present in database"
+        },
+        "gene_id" : {
+            "type" : "integer",
+            "description" : "Gene Accession ID in database"
+        },
+        "exons" : {
+            "type" : "integer",
+            "description" : "number of exons in gene"
+        }
+    }
+}
+    
