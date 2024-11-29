@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/Sandy.json/week1/sandydata-file.json",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "gene id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "gene id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gene name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "gene name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "#transcript": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "#transcript"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gene classification": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "gene classification"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "number of exons": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "number of exons"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
