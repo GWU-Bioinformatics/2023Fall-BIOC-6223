@@ -1,0 +1,12 @@
+{
+	"myGene": [{
+		"GeneID": 4292,
+		"Gene Name": "mutL homolog 1"
+	}, {
+		"Transcipts": 38,
+		"Gene Classification": "Protein Coding"
+	}, {
+		"Number of exons": 24,
+		"HW": 2
+	}]
+}

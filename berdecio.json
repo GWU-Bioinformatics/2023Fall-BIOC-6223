@@ -1,0 +1,12 @@
+{
+	"classes": [{
+		"bioc": "himmelfarb",
+		"prof": "keeney"
+	}, {
+		"stats": "milken",
+		"prof": "quinlan"
+	}, {
+		"epi": "milken",
+		"prof": "young"
+	}]
+}
