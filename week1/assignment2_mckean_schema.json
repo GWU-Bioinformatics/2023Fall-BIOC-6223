@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2023Fall-BIOC-6223/bd37c53ed1b0f5c1a7f1aff96ae70970bb97ba02/assignment2_mckean_schema.json",
+    "title": "Gene(s) of interest",
+    "description": "This document provides information about gene(s) of interest in a particular study",
+    "type": "object",
+    "required": [
+      "Gene ID",
+      "Gene name",
+      "Number of Transcripts",
+      "Gene classification",
+      "Number of exons"
+      ],
+    "properties": {
+      "Gene ID": {
+        "description": "The gene ID number from NCBI",
+        "type": "number"
+      },
+      "Gene name": {
+        "description": "The full name of the gene from NCBI",
+        "type": "string"
+      },
+      "Number of Transcripts": {
+        "description": "The number of transcripts the gene has",
+        "type": "number"
+      },
+      "Gene classifcation": {
+        "description": "Whether the gene is protein coding, noncoding, etc",
+        "type": "string"
+      },
+      "Number of exons": {
+        "description": "The number of exons present in the gene",
+        "type": "number"
+      }
+    }
+}
