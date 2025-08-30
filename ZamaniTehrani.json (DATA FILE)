@@ -1,0 +1,17 @@
+[
+    {
+        "accession": "NG_007504.2",
+        "name": "SHH",
+        "length": 19290
+    },
+    {
+        "accession": "NM_000546.5",
+        "name": "TP53",
+        "length": 2022
+    },
+    {
+        "accession": "NM_001354573.1",
+        "name": "BRCA1",
+        "length": 5731
+    }
+]

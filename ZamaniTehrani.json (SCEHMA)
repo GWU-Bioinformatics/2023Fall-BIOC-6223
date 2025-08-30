@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/Danny19283838/2023Fall-BIOC-6223/main/ZamaniTehrani.json", 
+    "type": "array",
+    "title": "GenBank Genes Data",
+    "description": "Schema for validating gene data from GenBank",
+    "items": {
+        "type": "object",
+        "properties": {
+            "accession": {
+                "type": "string",
+                "description": "Accession number of the gene, NG_007504.2, NM_000546.5, NM_001354573.1"
+            },
+            "name": {
+                "type": "string",
+                "description": "Gene name, SHH, TP53, BRCA1"
+            },
+            "length": {
+                "type": "integer",
+                "description": "Gene length in base pairs, 19290, 2022, 5731"
+            }
+        },
+        "required": ["accession", "name", "length"]
+    }
+}
